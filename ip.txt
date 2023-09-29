@@ -1,0 +1,5 @@
+[master]
+{ your_master_ip } ansible_user={ user } ansible_private_key_file= { your_key }
+[data]
+{ your_slave_ip } ansible_user={ user } ansible_private_key_file= { your_key }
+{ your_slave_ip } ansible_user={ user } ansible_private_key_file= { your_key }
